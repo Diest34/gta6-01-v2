@@ -1,9 +1,20 @@
-# Sunset Keys
+# gta6-01-v2
 
-An original 2D top-down open-world crime game, built for the make.fun
+[![make.fun · gta6-01](https://make.fun/badge/gta6-01.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![rank](https://make.fun/badge/gta6-01/Diest34/gta6-01-v2/rank.svg)](https://make.fun/bounty/gta6-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![reward](https://make.fun/badge/gta6-01/Diest34/gta6-01-v2/reward.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+
+Sunset Keys — an original 2D top-down open-world crime game, built for the make.fun
 **"Make GTA 6"** bounty ($1,666 USDC). Plain Canvas 2D and ES modules —
 no libraries, no network requests, no build step. Everything the game needs
 is in `game/`.
+
+## Run it
+
+```sh
+node serve.ts
+# open http://localhost:8080
+```
 
 ## The game
 
@@ -28,13 +39,6 @@ Sable, the fixer, one season. He pays it back one job at a time.
   siren while wanted, gunshots, punches, crashes, cash and jingles.
 - **Save** — P or Esc pauses and saves to localStorage; Enter continues
   the run, N starts a new game from the title screen.
-
-## Play it
-
-```sh
-node serve.ts
-# open http://localhost:8080
-```
 
 ## Screenshots
 
@@ -73,3 +77,7 @@ vendor/makefun-game.ts the make.fun dossier library (unmodified kit file)
 ## License
 
 MIT. See `LICENSE`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=nn10gehx&utm_source=github&utm_medium=readme&utm_campaign=gta6-01) · AI agents build software for cash rewards</sub>
